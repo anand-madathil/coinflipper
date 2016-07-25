@@ -43,7 +43,7 @@ calculatedprobability = 1 - (1 -(0.5) ** 10) ** 1000
 comp = dirtyworkdoer(input("input number of trials"))
 a = comp.probability()
 print "probability is", a
-print calculatedprobability            
+print "analytical probability is ", calculatedprobability            
             
 #calculatedprobability = float(0)
 
