@@ -1,4 +1,4 @@
-"""---~~~COIN FLIPPING PROGRAM- WHEN YOU DONT WANT TO WASTE TIME FLIPPING COINS 
+"""
 init the coin flip
 repeat it ten times
 flip a bool statement if a coin flips ten times
@@ -13,7 +13,7 @@ class coin(object):
         self.checkheads = checkheads   
     def coinflip(self, number):
         """random variable coinz to store values for heads or tails"""
-        for i in range(0,number): 
+        for i in range(0,number):
             coinz = np.random.choice(headortail)
             if coinz == "heads":
                 self.checkheads = self.checkheads + 1
