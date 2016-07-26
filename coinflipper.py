@@ -54,29 +54,7 @@ a = comp.probability()
 print "probability is", a
 print "analytical probability is ", calculatedprobability            
 
-#previous program which is more or less obsolete
-#calculatedprobability = float(0)
-#successruns = int(0)
-#successcount = int(0)
-#totalruns = int(input("input number of runs you want"))
-#checkheads = int(0)
-#calculatedprobability = 1 - (1 -(0.5) ** 10) ** 1000
-#for z in range (0, totalruns):
-# for x in range (0, 1000):
-#  for i in range (0, 10):
-#   coin = np.random.choice(headortail)
-#   if coin == 1:
-#        checkheads = checkheads + 1
-#  if checkheads == 10:
-#     successcount = successcount + 1
-#  checkheads = 0
-# if successcount >= 1:
-#  successruns = successruns + 1
-# successcount = 0
-#probability = float(successruns) / totalruns
-#print "probability is", probability
-#print "successful runs are", successruns
-#print "calculated probability is", calculatedprobability
+
 
 
 
