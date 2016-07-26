@@ -6,16 +6,16 @@ use an if statement to check whether one coin flipped
 compare successful runs over total runs
 """
 import numpy as np
-headortail = np.array([1,2])
+headortail = np.array(["heads","tails"])
 class coin(object): 
     """coin object with the flip function"""
     def __init__(self,checkheads=0):
         self.checkheads = checkheads   
     def coinflip(self, number):
+        """random variable coinz to store values for heads or tails"""
         for i in range(0,number): 
-            """random variable coinz to store values for heads or tails"""
             coinz = np.random.choice(headortail)
-            if coinz == 1:
+            if coinz == "heads":
                 self.checkheads = self.checkheads + 1
         return self.checkheads 
         """checkheads returns number of heads"""
